@@ -1,0 +1,301 @@
+
+body {
+    margin: 0 0 0 0; padding: 0 0 0 0;
+    width: 100%;
+    font-family: Frutiger,sans-serif;
+    background: white url('quad.jpg') no-repeat center top;
+    color: black;
+}
+
+/* Color scheme */
+a:link {color: #0000ff; background:  transparent;}                 
+a:visited {color: #6600cc; background: transparent; }
+a:hover {color: #000000; background: #bdf;}            
+a:focus {color: #000000; background: #bdf;}            
+
+.actualcontent {
+    background: white;
+    width: 98%;
+    max-width: 72em;
+    margin: 3px auto 3px auto;
+    border: 2px ridge #000;
+} 
+/* Top and bottom sections currently have the same color */
+.begin,.contact {
+    background: #3b185a;
+    color: white;
+    margin: 0 0 0 0;
+    clear: both;
+}
+.nav a:link,.contact a:link,.classinfo a:link {color: #99f; background:  transparent;}
+.nav a:visited,.contact a:visited,.classinfo a:visited {color: #c6f; background: transparent; }
+.nav a:hover,.contact a:hover, .classinfo a:hover {color: #000000; background: #bdf;}
+.nav a:focus,.contact a:focus, .classinfo a:hover  {color: #000000; background: #bdf;}
+
+
+.yui-skin-sam .yuimenu h6{
+   font-size:85%;
+}
+
+/* End of color scheme */
+
+
+h1 {
+    margin: 0 0 0 0;
+    padding: 1.5ex 1.5em 1.5ex 1.5em;
+    font: normal normal 600 150% frutiger,sans-serif;
+}
+h1.headimg {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font: normal normal 600 150% frutiger,sans-serif;
+}
+h2 { 
+    margin: 3ex 0 1ex 0;
+    font: normal normal 600 133% frutiger,sans-serif;
+}
+h3 { 
+    margin: 2ex 0 0 0;
+    font: normal normal 600 110% frutiger,sans-serif;
+}
+
+dl {margin: 0.5ex 0 1ex 0; padding: 0; }
+dt { font-weight: bold; margin-top: 0.5ex; }
+dd { margin: 0 0 0 2.5em; }
+p  { margin: 1ex 0 1ex 0; padding: 0; }
+
+.begin ul.nav {
+    margin: 0 0 0 0;
+    float: right;
+    list-style: none;
+    text-align: right;
+    width: 220px;
+}
+ul.nav li a img {
+    border-style: none;
+    margin: 0;
+}
+
+
+
+#mymenubar { clear: right; }
+
+.errortitle {
+   text-align:center;
+}
+
+.contact address {
+    margin: 0;
+    padding: .5ex .5em;
+}
+
+.main {
+    margin: 0;
+    padding: 1em 2em 1em 2em;
+}
+
+
+ul.pic-set { margin: 3ex 0em 3ex 0em; overflow: auto; }
+ul.pic-set.tile { list-style: none; }
+
+.pic.tile {
+    float: left;
+    width: 192px;
+    margin: 8px 8px 8px 8px;
+}
+.pic.tile dt {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+.pic.tile dt img {
+    width: 192px;
+    margin: 0 0 0 0;
+    border-style: none;
+}
+
+.pic.tile dd {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0 ;
+    font-weight: bold;
+    text-align: center;
+    height: 8ex;
+}
+.pic.tile dd ul {
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.pic.tile.example {
+    float: right;
+    width: 192px;
+    position: fixed;
+    right: 8px;
+    top: 25%;
+    padding: 8px 8px 8px 8px;
+    border: 1px outset #999999;
+    background: #ffffff;
+} 
+
+
+.pic.tile.student {
+    float: left;
+    width: 128px;
+    margin: 8px 8px 8px 8px;
+}
+.pic.tile.student dt {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+.pic.tile.student dt img {
+    width: 128px;
+    margin: 0 0 0 0;
+    border-style: none;
+}
+
+.pic.tile.student dd {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0 ;
+    font-weight: bold;
+    text-align: center;
+    height: 4ex;
+}
+.pic.tile.student dd ul {
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+
+
+
+.pic.tile.example dt img {
+    width: 192px;
+    border-width: 0; 
+}
+
+h2.people-set {
+    clear: both;
+}
+
+.dept-sampler {
+    float: right;
+    clear: right;
+    width: 272px;
+    margin: 12px 12px 12px 12px;
+    padding: 12px 12px 12px 12px;
+    color: black;
+    background: white;
+    border: 1px solid #aaa;
+}
+.dept-sampler dt {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+.dept-sampler dd {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0 ;
+    font-weight: bold;
+}
+
+.news.section { margin: 3ex 1em 3ex 1em; }
+.news.item {
+/* margin: 0 320px 0 0; */
+    clear: left;
+    }
+.news.icon {width: 136px; float: left; }
+.news.icon img {width: 128px;height: 128px; margin: 8px; border: 1px solid #aaa; }
+.news.text { padding: 0 0.5ex 0 0.5ex;
+    list-style: none;}
+.news.text.head { font-size: 120%; margin: 0 0 0 1em; padding: 1ex 0.5ex 1ex 0.5ex; display: list-item; list-style-type: disc;}
+.news.text.withicon { margin: 0 0 0 160px; display: block; }
+
+
+/* Style elements for person pages */
+
+.portrait {
+    width: 256px;
+    float: right;
+    clear: right;
+    margin: 5px 5px 5px 5px;
+    padding: 10px;
+    color: black;
+    background: white;
+}
+
+
+/* Do not show the "Role" DT - let the DD speak for itself */
+dt.role {
+    display: none;
+}
+
+.person dd.role {
+    margin: 2ex 0 2ex 0;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.person dt.bio {
+    clear: both;
+    margin-top: 2ex;
+    border-top: 1px solid #000;
+}
+
+.coursetable tr th.sectionhead { 
+    padding: 4ex 4em 1ex 4em;
+    border-bottom: 1px solid #000;
+    font: normal normal 600 133% Frutiger,sans-serif;
+    text-align: justify;
+}
+.coursetable tr th.colhead { 
+    padding: 1ex 4em 1ex 4em;
+    border-bottom: 1px solid #000;
+    text-align: justify;
+}
+
+.coursetable tr th.coursecode {
+    text-align: right;
+}
+
+/* Style elements for seminar page */
+.seminar h1 {
+    padding:0;
+}
+
+.seminar h2 {
+    margin:1em 0;
+}
+
+.seminar dd{
+    margin:0;
+}
+
+.heading {
+   padding-left:0;
+   clear:both;
+}
+
+.classinfo {
+    margin: 0 0 0 0;
+    padding: 0ex 2.25em;
+}
+
+.instructor{
+    clear:both;
+    float:none;
+}
+.instructor dt {
+    float:left;
+    padding-right:1em;
+}
+
+.instructor dd{
+    float:left;
+    margin:0;
+    padding:0 1em 0 0;
+}
+
